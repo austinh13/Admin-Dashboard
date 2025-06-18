@@ -1,0 +1,60 @@
+
+.montserrat-text{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+}
+
+.screen{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+
+.nav{
+    width: 12vw;
+    height: 99vh;
+    padding: 0.5vh 1vw 0.5vh 1vw;
+    background-color: rgb(207, 206, 206);
+}
+
+.nav img{
+    width: 35px;
+    height: 35px;
+}
+
+.nav h1{
+    font-size: 2em;
+}
+
+.nav p{
+    font-size: 1.5em;
+}
+
+.dashItems{
+    margin-top: 4vh;
+    display: grid;
+    grid-template-rows: repeat(5, 65px);
+    grid-template-columns: repeat(2,75px);
+    align-items: center;
+}
+
+.supportItems{
+    margin-top: 6vh;
+    display: grid;
+    grid-template-rows: repeat(5, 65px);
+    grid-template-columns: repeat(2,75px);
+    align-items: center;
+}
+
+.info{
+    width: 86vw;
+    height: 100vh;
+    background-color: rgba(33, 252, 252, 0.83);
+}
