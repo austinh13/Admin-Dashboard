@@ -30,7 +30,7 @@ body{
 }
 
 .nav h1{
-    font-size: 2em;
+    font-size: 1.7em;
 }
 
 .nav p{
@@ -40,21 +40,83 @@ body{
 .dashItems{
     margin-top: 4vh;
     display: grid;
-    grid-template-rows: repeat(5, 65px);
-    grid-template-columns: repeat(2,75px);
+    grid-template-rows: repeat(5, 6vh);
+    grid-template-columns: repeat(2,4vw);
     align-items: center;
 }
 
 .supportItems{
     margin-top: 6vh;
     display: grid;
-    grid-template-rows: repeat(5, 65px);
-    grid-template-columns: repeat(2,75px);
+    grid-template-rows: repeat(5, 5vh);
+    grid-template-columns: repeat(2,4vw);
     align-items: center;
 }
 
 .info{
     width: 86vw;
     height: 100vh;
-    background-color: rgba(33, 252, 252, 0.83);
+    background-color: rgba(23, 168, 168, 0.83);
+
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    width: 86vw;
+    height: 20vh;
+    background-color: rgba(255, 255, 255, 0.762);
+
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.search{
+    display: flex;
+    flex-direction: row;
+    margin: 1vh 1vw 0vh 10vw;
+    gap: 2vw;
+    
+    align-items: center;
+}
+
+.search img{
+    width: 2.5vw;
+    height: auto;
+}
+
+.searchBar{
+    border-radius: 20px;
+    border-style: solid;
+    width: 40vw;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.598);
+
+    font-size: 1.6em;
+    color: black;
+}
+
+#bell{
+    margin-left: 5vw;
+}
+
+#profile{
+
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+
+    width: 2.5vw;
+    height: 2.5vw;
+    background-color: grey;
+    text-align: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 1.5em;
+
+}
+
+#name{
+    font-size: 1.6em;
 }
