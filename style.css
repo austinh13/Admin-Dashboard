@@ -64,7 +64,7 @@ body{
 
 .header{
     width: 86vw;
-    height: 20vh;
+    height: 23vh;
     background-color: rgba(255, 255, 255, 0.762);
 
     display: flex;
@@ -119,4 +119,51 @@ body{
 
 #name{
     font-size: 1.6em;
+}
+
+.bio{
+    
+    padding-bottom: 3vh;
+    margin-left: 10vw;
+
+    display: flex;
+    flex-direction: row;
+    gap: 3vw;
+    align-items: center;
+}
+
+#lowerProfile{
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+
+    width: 4vw;
+    height: 4vw;
+    background-color: grey;
+    text-align: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 1.5em;
+}
+
+#userName{
+    font-size: 1.8em;
+}
+
+.bioButton{
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+
+    width: 6vw;
+    height: 4vh;
+    background-color: aqua;
+    
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 1.6em;
+}
+
+#leftButton{
+    margin-left: 16vw;
 }
