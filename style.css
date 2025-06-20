@@ -147,7 +147,7 @@ body{
 }
 
 #userName{
-    font-size: 1.8em;
+    font-size: 1.7em;
 }
 
 .bioButton{
@@ -161,9 +161,40 @@ body{
     
     border-radius: 10px;
     color: rgb(255, 255, 255);
-    font-size: 1.6em;
+    font-size: 1.4em;
 }
 
 #leftButton{
     margin-left: 16vw;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+}
+
+.projects{
+    display: flex;
+    flex-direction: column;
+
+    padding: 1vh 1vw 1vh 1vw;
+}
+
+.projects p{
+    font-size: 1.4em;
+}
+
+.projectGrid{
+    display: grid;
+    grid-template-rows: repeat(2, 31vh);
+    grid-template-columns: repeat(2,16vw);
+    gap: 1vh;
+}
+
+.projectTile{
+    width: 15vw;
+    height: 15vw;
+
+    border-radius: 5px;
+    background-color: aliceblue;
 }
