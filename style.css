@@ -186,15 +186,23 @@ body{
 
 .projectGrid{
     display: grid;
-    grid-template-rows: repeat(2, 31vh);
-    grid-template-columns: repeat(2,16vw);
+    grid-template-columns: repeat(3,21vw);
     gap: 1vh;
 }
 
 .projectTile{
-    width: 15vw;
-    height: 15vw;
+    width: 20vw;
+    height: 33vw;
 
     border-radius: 5px;
     background-color: aliceblue;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projectTile img{
+    width: 17vw;
+    height: auto;
 }
