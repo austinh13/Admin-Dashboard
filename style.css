@@ -202,7 +202,23 @@ body{
     align-items: center;
 }
 
+.projectTile h1{
+    font-size: 1.6em;
+}
+
 .projectTile img{
     width: 17vw;
     height: auto;
+    max-height: 40vh;
+    border-radius: 10px;
+}
+
+#calc{
+    width: 15vw;
+    height: auto;
+}
+
+#Sign-Up{
+    width: 15vw;
+    
 }
