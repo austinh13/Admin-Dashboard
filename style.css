@@ -11,12 +11,14 @@ body{
     margin: 0;
 }
 
+/* Whole screen */
 .screen{
     display: flex;
     flex-direction: row;
     margin: 0;
 }
 
+/* Left side nav bar */
 .nav{
     width: 12vw;
     height: 99vh;
@@ -37,6 +39,7 @@ body{
     font-size: 1.5em;
 }
 
+/* Items on the navigator bar */
 .dashItems{
     margin-top: 4vh;
     display: grid;
@@ -45,6 +48,7 @@ body{
     align-items: center;
 }
 
+/* Support items on nav */
 .supportItems{
     margin-top: 6vh;
     display: grid;
@@ -53,6 +57,7 @@ body{
     align-items: center;
 }
 
+/* Right side of the screen */
 .info{
     width: 86vw;
     height: 100vh;
@@ -62,6 +67,7 @@ body{
     flex-direction: column;
 }
 
+/* Header info with search bar*/
 .header{
     width: 86vw;
     height: 23vh;
@@ -262,4 +268,8 @@ body{
     padding: 1vh 1vw 1vh 1vw;
 
     font-size: 1em;
+}
+
+#copyRight{
+    font-size: 0.6em;
 }
